@@ -278,22 +278,22 @@ header {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 30px;
+  gap: 10px;
 }
 
 .icon-card {
   fill: #afb1b8;
-  padding-top: 12px;
+  border-radius: 25px;
+  height: 44px;
+  width: 44px;
   padding-left: 12px;
-  border-radius: 50%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 12px;
 }
 
 .icon-card:hover {
   fill: #fff;
   background: var(--brand-color);
+  cursor: pointer;
 }
 
 /* _______ ________ CLIENTES REGULARES _______ ________ */
@@ -476,6 +476,7 @@ logo.bottom {
   gap: 20px;
 }
 .icons {
+  box-sizing: content-box;
   display: flex;
   justify-content: flex-start;
   gap: 10px;
@@ -484,13 +485,13 @@ logo.bottom {
 .icon {
   background: rgba(255, 255, 255, 0.1);
   fill: rgba(255, 255, 255, 1);
-  padding-top: 12px;
-  padding-left: 12px;
-  border-radius: 50%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 25px;
+  height: 44px;
+  width: 44px;
+
+  padding-left: 12px;
+  padding-top: 12px;
 }
 
 .icon:hover {
